@@ -29,6 +29,14 @@ body{
     background-size: cover;
     background-position: bottom right;
     height: 100%;
+   
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+
 }
 
 blockquote {
@@ -40,6 +48,7 @@ blockquote {
     border: 3px solid firebrick;
     padding: 30px;
     font-style: italic;
+    
 }
 
 .farmer{
@@ -48,4 +57,84 @@ blockquote {
 
 .villageois{
     border-left: 2px solid green;
+}
+
+header h1{
+    background-color: yellow;
+}
+
+.good{
+    text-transform: capitalize;
+    color: green;
+}
+
+.bad{
+    text-transform: capitalize;
+    color: red;
+}
+
+.impairRow{
+    background-color: white;
+}
+
+.pairRow{
+    background-color: gray;
+}
+
+li{
+    line-height: 15px;
+}
+
+#thumbsUp {
+    background-image: url("../assets/bien.png") ;
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    background-size: contain;
+    padding-left: 18px;
+    
+}
+
+#thumbsDown {
+    background-image: url("../assets/mal.png") ;
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    background-size: contain;
+    padding-left: 18px;
+}
+
+#cat {
+    background-image: url("../assets/chat.png");
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    background-size: contain;
+    padding-left: 18px;
+}
+
+#firstP {
+    font-weight: bold;
+}
+
+#imgRight{
+    float: right;
+}
+
+article{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+
+
+.notification{
+    background:#FFFFDD;
+    padding:.5rem 1rem;
+    border:3px solid #DDDDCC;
+    width:250px;
+    font-weight:bold;
+    color: #333300;
+    position: fixed;
+    top: 90% ;
+    left: 84% ;
 }
